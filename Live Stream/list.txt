@@ -1,0 +1,4 @@
+直播,#genre#
+湖北卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225627/index.m3u8
+CCTV1,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
+CCTV1备用,https://live3.rxip.sc96655.com/live/CCTV-1H265_4000.m3u8
