@@ -1,0 +1,38 @@
+/* unicode编码表 https://symbl.cc/cn/unicode-table/#cjk-unified-ideographs */
+/* 在线Unicode编码字符查看 https://www.lddgo.net/string/unicode-chart */
+
+/* 简体中文（GB2312-80 和 GBK 核心汉字及符号） */
+@font-face {
+    font-family: 'Shoujo';
+    font-style: normal;
+    font-weight: 900;
+    src: url('shoujo.ttf') format('truetype');
+    unicode-range: U+00A1-00FF, U+2000-206F, U+3000-303F, U+3400-4DBF, U+4E00-9FA5, U+20AC;
+}
+
+/* 繁体中文（Big-5 及扩展字符） */
+@font-face {
+    font-family: 'Shoujo';
+    font-style: normal;
+    font-weight: 900;
+    src: url('Shoujo') format('truetype');
+    unicode-range: U+4E00-9FFF, U+E000-F8FF;
+}
+
+/* 英文（ASCII 和基本拉丁文） */
+@font-face {
+    font-family: 'uddigikyokasho-pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('UD_Digi_Kyokasho_NP-B.ttf') format('truetype');
+    unicode-range: U+0020-007F, U+00A0-00FF;
+}
+
+/* 日语假名（平假名和片假名） */
+@font-face {
+    font-family: 'DFMaruMoji-W9';
+    font-style: normal;
+    font-weight: 400;
+    src: url('DFMaruMoji-W9.ttf') format('truetype');
+    unicode-range: U+3040-309F, U+30A0-30FF, U+31F0-31FF;
+}

@@ -1,0 +1,20 @@
+/* unicode编码表 https://symbl.cc/cn/unicode-table/#cjk-unified-ideographs */
+/* 在线Unicode编码字符查看 https://www.lddgo.net/string/unicode-chart */
+
+/* 简体中文（GB2312-80 和 GBK 核心汉字及符号） */
+@font-face {
+    font-family: 'FounderType_Cartoon';
+    font-style: normal;
+    font-weight: 400;
+    src: url('FounderType_Cartoon_sc.ttf') format('truetype');
+    unicode-range: U+00A1-00FF, U+2000-206F, U+3000-303F, U+3400-4DBF, U+4E00-9FA5, U+20AC;
+}
+
+/* 繁体中文（Big-5 及扩展字符） */
+@font-face {
+    font-family: 'FounderType_Cartoon';
+    font-style: normal;
+    font-weight: 400;
+    src: url('FounderType_Cartoon_sc.ttf') format('truetype');
+    unicode-range: U+4E00-9FFF, U+E000-F8FF;
+}
